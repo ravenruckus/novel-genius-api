@@ -28,3 +28,4 @@ import {
     }
   }
   
+  // https://firebase.google.com/codelabs/firebase-nextjs#5
