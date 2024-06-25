@@ -3,13 +3,12 @@
 import { callMenuSuggestionFlow } from '@/app/genkit';
 import { useState } from 'react';
 import { useUser } from '@/lib/getUser';
+import AddItem from '@/components/AddItem';
+import ListItems from '@/components/ListItems';
 
 export default function Home() {
   const [menuItem, setMenu] = useState<string>('');
   const user = useUser();
-  console.log('user', user)
-
-
 
   async function getMenuItem(formData: FormData) {
     const theme = formData.get('theme')?.toString() ?? '';
@@ -34,6 +33,10 @@ export default function Home() {
       ) : (
         <p>Sign in to generate a menu item</p>
       )}
+
+      <AddItem />
+      <ListItems />
+
     </main>
   );
 }

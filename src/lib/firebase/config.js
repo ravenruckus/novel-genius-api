@@ -16,4 +16,6 @@ const config = {
   });
   
   export const firebaseConfig = config;
+
+//   https://firebase.google.com/codelabs/firebase-nextjs#6
   
