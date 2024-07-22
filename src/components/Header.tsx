@@ -17,13 +17,14 @@ function useUserSession(initialUser: any) {
 	// Register the service worker that sends auth state back to server
 	// The service worker is built with npm run build-service-worker
 	useEffect(() => {
+
 		if ("serviceWorker" in navigator) {
 			const serializedFirebaseConfig = encodeURIComponent(JSON.stringify(firebaseConfig));
 			const serviceWorkerUrl = `/auth-service-worker.js?firebaseConfig=${serializedFirebaseConfig}`
 		
 		  navigator.serviceWorker
 			.register(serviceWorkerUrl)
-			.then((registration) => console.log("scope is: ", registration.scope));
+			.then((registration) => console.log("scope is: ", registration.scope))
 		}
 	  }, []);
 
