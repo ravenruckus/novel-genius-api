@@ -1,10 +1,8 @@
 'use client';
 
-import { callMenuSuggestionFlow } from '@/app/genkit';
+import { callMenuSuggestionFlow } from '@/lib/actions/genkit';
 import { useState } from 'react';
 import { useUser } from '@/lib/getUser';
-import AddItem from '@/components/AddItem';
-import ListItems from '@/components/ListItems';
 
 export default function Home() {
   const [menuItem, setMenu] = useState<string>('');
@@ -33,10 +31,6 @@ export default function Home() {
       ) : (
         <p>Sign in to generate a menu item</p>
       )}
-
-      <AddItem />
-      <ListItems />
-
     </main>
   );
 }
