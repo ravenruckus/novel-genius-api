@@ -1,0 +1,23 @@
+---
+model: vertexai/gemini-1.5-pro
+config:
+    temperature: 0.9
+input:
+    schema: 
+        chapterText: string
+output:
+    format: json
+    schema:
+        summary: string
+---
+
+You are an expert at very accurately summarizing each chapter in a novel.
+
+Read the provided chapter and create a detailed summary of its contents. 
+
+Chapter: {{chapterText}}
+
+Make sure to return output in JSON format.
+
+
+
