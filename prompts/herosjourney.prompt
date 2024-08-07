@@ -1,0 +1,30 @@
+---
+model: vertexai/gemini-1.5-pro
+config:
+    temperature: 0.9
+input:
+    schema: 
+       novel:
+            novelText: string
+            summaries: string
+            stages(array): 
+                stage: string
+                definition: string
+                
+output:
+    format: json
+    schema:
+        stages(array):
+            chapter: string
+            stage: string
+            explanation: string
+
+---
+
+You are an expert novelist with the hero's journey struture who specializes in assigning each chapter in a novel an appropriate stage in the hero's journey structure.
+
+Read each summary for each chapter {{novel.summaries}} then assign each chapter a stage in the hero's journey and explain why you assigned that stage.  
+
+Make sure to return the result in JSON format.
+
+You can use these hero's journey stage definitions as a reference {{#each novel.stages}} {{stage}}: {{definition}} {{/each}}

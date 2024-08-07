@@ -13,10 +13,8 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }>) {
   return (
-   <>
-     <Nav>
-         {children}
-     </Nav>
-   </>
+    <>
+      <Nav>{children}</Nav>
+    </>
   );
 }
