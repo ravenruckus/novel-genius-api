@@ -8,6 +8,12 @@ After earning a certificate in web development and doing some freelance work, I 
 
 Recently, I rediscovered an old novel I had written and decided to use AutoCrit, a machine learning-powered writing software, to analyze it. The software compared my work to popular fiction novels, and the results were so encouraging that I became immersed in rereading my story. However, while AutoCrit provided valuable insights, it lacked the organizational and structural features I desired most.  I wanted a tool that could help me structure my story, break it down into scenes, and allow me to work directly from my files. 
 
+### AutoCrit Analysis of a Chapter of Mine
+<div style="text-align: center;">
+  <img width="700" alt="Byline-inserted" src="https://github.com/user-attachments/assets/d14c5339-b10c-4027-be39-0b86e3c2187b">
+</div>
+
+
 ## About This Project (In Progress)
 This project is a P0 (proof of concept) tool designed to create an API that outputs responses from a large language model (LLM), allowing for versatile usage. The API will provide access to classic novels broken down into individual scenes, including detailed analysis of each scene. Additionally, it will offer a reusable prompt for writers to receive feedback on their own scenes by comparing them to scenes from classic novels they aim to emulate. 
 
