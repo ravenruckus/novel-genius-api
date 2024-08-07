@@ -20,11 +20,7 @@ export default function ChapterSummaries({
   const [summaries, setSummaries] = useState<any>();
 
   useEffect(() => {
-    if (state?.message) {
-      console.log('state', state);
-    }
     if (state?.summaries) {
-      console.log('summaries', state.summaries);
       setSummaries(state.summaries);
     }
   }, [state]);

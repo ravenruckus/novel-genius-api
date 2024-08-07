@@ -1,6 +1,6 @@
 'use server';
 import getNovel from '@/lib/actions/getNovel';
-import { callsummaryFlow } from '@/lib/actions/genkit/sumarrizeNovel';
+import { callsummaryFlow } from '@/lib/actions/genkit/summarizeNovel';
 
 type Chapter = {
   [key: string]: string;

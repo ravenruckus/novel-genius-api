@@ -1,5 +1,4 @@
 export function splitChapters(text: string, id: string, name: string) {
-  console.log('inside splitChapters', text);
   // Remove new lines and carriage returns
   text = text.replace(/[\r\n]+/g, ' ');
 
