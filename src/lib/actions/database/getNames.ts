@@ -1,13 +1,17 @@
 'use server';
-import { NovelName } from '@/lib/definitions';
+import { Dictionary, NovelName } from '@/lib/definitions';
+import { getAuthenticatedAppForUser } from '@/lib/firebase/serverApp';
 
 export const getNames = async (): Promise<
-  Record<string, NovelName> | undefined
+  Dictionary<NovelName> | undefined
 > => {
+  const { idToken } = await getAuthenticatedAppForUser();
+
   try {
     const response = await fetch(
-      process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL + '/novels/names.json',
-      { next: { revalidate: 3600 } }
+      process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL +
+        '/novels/names.json?auth=' +
+        idToken
     );
     const names = await response.json();
     return names;

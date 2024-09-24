@@ -1,13 +1,15 @@
 import Link from 'next/link';
-import { getNames } from '@/lib/actions/database/getNames';
+import { notFound } from 'next/navigation';
+import getNovelName from '@/lib/utils/getNovelName';
+import { Novel } from '@/lib/definitions';
 import getNovel from '@/lib/actions/getNovel';
 import StepContentHeader from '@/components/dashboard/steps/StepContentHeader';
 
 export default async function StepOne({ params }: { params: { id: string } }) {
   const id = params.id;
-  const novelNames = (await getNames()) as Record<string, any>;
-  const novelName = novelNames[id]?.name;
-  const novel = await getNovel(id, novelName);
+  const novelName = await getNovelName(id);
+  if (!novelName) notFound();
+  const novel: Novel | undefined = await getNovel(id, novelName);
 
   return (
     <div className="container mx-auto sm:px-6 lg:px-8">
@@ -37,7 +39,7 @@ export default async function StepOne({ params }: { params: { id: string } }) {
                         </Link>
                       </h3>
                       <p className="mt-5 line-clamp-4 text-sm leading-6 text-gray-600">
-                        {novel.chapters[key]}
+                        {novel.chapters[key].content}
                       </p>
                     </div>
                   </article>

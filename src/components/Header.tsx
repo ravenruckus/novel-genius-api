@@ -1,6 +1,5 @@
 'use client';
-import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
+import React, { useState, useEffect, use } from 'react';
 import {
   signInWithGoogle,
   signOut,
@@ -72,6 +71,7 @@ export default function Header({ initialUser }: any) {
         <>
           <div className="profile">
             <p>name: {user.displayName}</p>
+            <p>novel names</p>
 
             <div className="menu">
               ...
@@ -86,10 +86,12 @@ export default function Header({ initialUser }: any) {
           </div>
         </>
       ) : (
-        <div className="profile">
-          <a href="#" onClick={handleSignIn}>
-            Sign in to begin
-          </a>
+        <div>
+          <div className="profile">
+            <a href="#" onClick={handleSignIn}>
+              Sign in to begin
+            </a>
+          </div>
         </div>
       )}
     </header>
