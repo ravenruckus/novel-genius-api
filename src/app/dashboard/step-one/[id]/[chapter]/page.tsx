@@ -1,5 +1,7 @@
 import getNovel from '@/lib/actions/getNovel';
-import { getNames } from '@/lib/actions/database/getNames';
+import getNovelName from '@/lib/utils/getNovelName';
+import { Novel, ChapterContent } from '@/lib/definitions';
+
 export default async function Chapter({
   params,
 }: {
@@ -7,10 +9,17 @@ export default async function Chapter({
 }) {
   const id = params.id;
   const chapter = params.chapter;
-  const novelNames = (await getNames()) as Record<string, any>;
-  const novelName = novelNames[id]?.name;
-  const novel = await getNovel(id, novelName);
-  const chapterContent = novel['chapters'][chapter];
+  const novelName = await getNovelName(id);
+
+  let novel: Novel | undefined;
+  if (novelName) {
+    novel = await getNovel(id, novelName);
+  }
+
+  let chapterContent: ChapterContent | undefined;
+  if (novel) {
+    chapterContent = novel['chapters'][chapter];
+  }
 
   return (
     <div>
@@ -18,7 +27,7 @@ export default async function Chapter({
         Novel: {novelName} Chapter: {chapter}
       </h1>
       <p>id: {id}</p>
-      <p>{chapterContent && chapterContent}</p>
+      <p>{chapterContent && chapterContent.content}</p>
     </div>
   );
 }

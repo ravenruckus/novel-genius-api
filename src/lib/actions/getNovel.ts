@@ -1,6 +1,6 @@
 'use server';
 import { splitChapters } from '@/lib/utils/text-to-json';
-
+// Validate data and add to database
 export const getNovel = async (novelId: string, novelName: string) => {
   const response =
     novelId &&

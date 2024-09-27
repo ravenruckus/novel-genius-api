@@ -1,9 +1,12 @@
+import { Suspense } from 'react';
 import SelectNovel from '@/components/dashboard/SelectNovel';
 
 export default function Dashboard() {
   return (
-    <div className="py-10">
-      <SelectNovel />
+    <div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <SelectNovel />
+      </Suspense>
     </div>
   );
 }

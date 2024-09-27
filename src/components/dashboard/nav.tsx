@@ -9,13 +9,7 @@ import {
   DialogPanel,
   TransitionChild,
 } from '@headlessui/react';
-import {
-  HomeIcon,
-  BookOpenIcon,
-  PencilSquareIcon,
-  XMarkIcon,
-  Bars3Icon,
-} from '@heroicons/react/24/outline';
+import { HomeIcon, XMarkIcon, Bars3Icon } from '@heroicons/react/24/outline';
 
 const navigation = [{ name: 'Home', href: '/dashboard', icon: HomeIcon }];
 const novels = [
@@ -112,7 +106,7 @@ export default function Nav({
                       </div>
                       <ul role="list" className="-mx-2 mt-2 space-y-1">
                         {novels.map((novel) => (
-                          <li key={novel.name}>
+                          <li key={novel.id}>
                             <Link
                               href={novel.href}
                               onClick={() => setSidebarOpen(false)}

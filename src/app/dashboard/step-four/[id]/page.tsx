@@ -1,10 +1,11 @@
-import { getNames } from '@/lib/actions/database/getNames';
+import { notFound } from 'next/navigation';
+import getNovelName from '@/lib/utils/getNovelName';
 import StepContentHeader from '@/components/dashboard/steps/StepContentHeader';
 
 export default async function StepFour({ params }: { params: { id: string } }) {
   const id = params.id;
-  const novelNames = (await getNames()) as Record<string, any>;
-  const novelName = novelNames[id]?.name;
+  const novelName = await getNovelName(id);
+  if (!novelName) notFound();
 
   return (
     <StepContentHeader

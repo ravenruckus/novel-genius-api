@@ -1,6 +1,6 @@
 module.exports = {
   runner: {
     mode: 'harness',
-    files: ['./src/lib/actions/*.ts'],
+    files: ['./src/lib/actions/genkit/*.ts'],
   },
 };

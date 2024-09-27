@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import { useUser } from '@/lib/getUser';
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
     <main>
       {user && (
         <>
-          <Link href="/dashboard">Go to Dashboard</Link>
+          <a href="/dashboard">Go to Dashboard</a>
         </>
       )}
     </main>

@@ -1,9 +1,10 @@
-import { getNames } from '@/lib/actions/database/getNames';
+import { notFound } from 'next/navigation';
+import getNovelName from '@/lib/utils/getNovelName';
 
 export default async function Novel({ params }: { params: { id: string } }) {
   const id = params.id;
-  const novelNames = (await getNames()) as Record<string, any>;
-  const novelName = novelNames[id]?.name;
+  const novelName = await getNovelName(id);
+  if (!novelName) notFound();
 
-  return <div>Steps in progress for {novelName}</div>;
+  return <div>Steps in progress for {novelName && novelName}</div>;
 }
