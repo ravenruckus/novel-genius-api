@@ -1,22 +1,24 @@
 'use server';
+import { ref, child, get, DatabaseReference } from 'firebase/database';
 import { Dictionary, NovelName } from '@/lib/definitions';
-import { getAuthenticatedAppForUser } from '@/lib/firebase/serverApp';
+import { getRTDatabase } from '@/lib/firebase/serverDb';
 
 export const getNames = async (): Promise<
   Dictionary<NovelName> | undefined
 > => {
-  const { idToken } = await getAuthenticatedAppForUser();
-
   try {
-    const response = await fetch(
-      process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL +
-        '/novels/names.json?auth=' +
-        idToken
-    );
-    const names = await response.json();
-    return names;
+    const db = await getRTDatabase();
+    const dbRef: DatabaseReference = ref(db);
+    const snapshot = await get(child(dbRef, 'novels/names'));
+    if (snapshot.exists()) {
+      const data: Dictionary<NovelName> = snapshot.val();
+      return data;
+    } else {
+      console.error('No data available');
+      return undefined;
+    }
   } catch (error) {
     console.error('Error fetching names:', error);
-    return undefined;
+    throw error;
   }
 };
