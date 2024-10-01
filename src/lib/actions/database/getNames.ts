@@ -6,10 +6,9 @@ import { getRTDatabase } from '@/lib/firebase/serverDb';
 export const getNames = async (): Promise<
   Dictionary<NovelName> | undefined
 > => {
-  const db = await getRTDatabase();
-  const dbRef: DatabaseReference = ref(db);
-
   try {
+    const db = await getRTDatabase();
+    const dbRef: DatabaseReference = ref(db);
     const snapshot = await get(child(dbRef, 'novels/names'));
     if (snapshot.exists()) {
       const data: Dictionary<NovelName> = snapshot.val();
