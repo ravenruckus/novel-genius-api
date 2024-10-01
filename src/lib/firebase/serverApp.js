@@ -20,7 +20,8 @@ export async function getAuthenticatedAppForUser() {
       : {}
   );
 
-  const auth = getAuth(firebaseServerApp);
+  let auth = getAuth(firebaseServerApp);
+
   await auth.authStateReady();
 
   return { firebaseServerApp, currentUser: auth.currentUser, idToken: idToken };

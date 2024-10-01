@@ -1,0 +1,216 @@
+{
+  "novels": {
+    "content": {
+      "11": {
+        "\"story\"": "This is a story about Alice.",
+        "isPublic": true,
+        "name": "Alice in Wonderland"
+      },
+      "55": {
+        "\"story\"": "This is a story about Dorothy.",
+        "isPublic": false,
+        "name": "Wizard of Oz"
+      },
+      "summaries": {
+        "11": {
+          "novelId": "11",
+          "summaries": [
+            null,
+            {
+              "chapterId": "1",
+              "chapterTitle": "CHAPTER-I",
+              "summary": "Alice, bored by her sister's book, sees a White Rabbit with a pocket watch who declares he's late. Intrigued, she follows him down a rabbit-hole, falling slowly and noticing cupboards along the way.  At the bottom, she spots the Rabbit again but finds her way blocked by locked doors. A glass table holds a tiny key that unlocks a door too small for her to fit through. Drinking a potion labeled \"DRINK ME\" shrinks her to ten inches tall, but she forgets the key on the table. Discovering a cake labeled \"EAT ME,\" she eats it hoping to either grow or shrink further to reach the garden visible through the small door."
+            },
+            {
+              "chapterId": "2",
+              "chapterTitle": "CHAPTER-II",
+              "summary": "Alice continues to grow larger, reaching over nine feet tall. She manages to get the golden key from the table and tries to exit through the garden door, but she is too big to fit. Feeling hopeless, she starts to cry again, creating a large pool of tears.  The White Rabbit appears, rushing towards Alice and muttering about the Duchess. In her desperation, Alice speaks to him, but he gets frightened and runs away, leaving behind his fan and gloves.  Alice picks them up and, while fanning herself, contemplates her strange circumstances. She tries to recall her knowledge to reassure herself but struggles with simple facts, leading her to believe she might have transformed into another girl named Mabel.  As she talks, Alice realizes she is shrinking again due to the fan's magic. She drops it just in time to avoid disappearing completely.  Determined to get into the garden, she rushes to the door but finds it locked again. Feeling defeated, Alice slips and falls into the pool of tears she had cried earlier.  While swimming in the pool, she encounters a Mouse that has also fallen in. She tries to communicate with it, first in English and then in French, but accidentally mentions cats, which frightens the Mouse.  Alice tries to appease the Mouse by talking about other animals, but she keeps mentioning creatures the Mouse dislikes. Finally, the Mouse agrees to tell Alice its story and explain its hatred for cats and dogs if she helps it get out of the pool.  With the pool becoming crowded with other animals that have fallen in, Alice leads the way to the shore."
+            },
+            {
+              "chapterId": "3",
+              "chapterTitle": "CHAPTER-III",
+              "summary": "Alice finds herself among a group of wet animals who are trying to dry off. The Mouse, a figure of authority, attempts to dry them with a dull history lesson. The Lory's constant interruptions irritate the Mouse.  Alice remains wet, prompting the Dodo to suggest a Caucus-race, an absurd event with no clear rules or winner. Alice, as the only one with pockets, gives out comfits as prizes, receiving her own thimble as a prize.  The Mouse reluctantly begins a story but is distracted by Alice's puzzled look at its tail. Alice misunderstands the story and angers the Mouse, causing it to leave. The Lory observes that losing one's temper is never good. Alice mentions her cat Dinah, a skilled hunter of birds and mice. This frightens the birds, who quickly disperse, leaving Alice alone and saddened. She misses Dinah and cries, hoping the Mouse will return to finish its story."
+            },
+            {
+              "chapterId": "4",
+              "chapterTitle": "CHAPTER-IV",
+              "summary": "The White Rabbit mistakes Alice for his housemaid, Mary Ann, and sends her to fetch his gloves and fan. In the Rabbit's house, Alice finds a bottle and drinks from it, causing her to grow incredibly large and become stuck. The Rabbit, unable to help Alice, calls for help from others, including a gardener named Pat. They try various methods to get Alice out, including sending Bill the Lizard down the chimney, but to no avail. Alice kicks Bill back up the chimney, and the others, frightened, decide to burn the house down. Alice scares them off with the threat of her cat, Dinah.  They try to pelt her with pebbles through the window, but the pebbles turn into cakes upon hitting the floor. Alice eats a cake, shrinking herself small enough to escape.  Free, Alice sets off into the woods, determined to return to her normal size and find the lovely garden. She encounters an enormous puppy, which she plays with briefly before running away. Exhausted, Alice realizes she needs to eat or drink something to change her size, but is unsure what. She comes across a large mushroom and decides to investigate its top."
+            },
+            {
+              "chapterId": "5",
+              "chapterTitle": "CHAPTER-V",
+              "summary": "Alice encounters a Caterpillar smoking a hookah. Upon being asked who she is, Alice expresses confusion about her constantly changing identity and size. The Caterpillar, finding her answer unsatisfactory, instructs her to recite \"You Are Old, Father William.\" Alice's rendition is incorrect, further frustrating the Caterpillar. It advises her that one side of the mushroom will make her taller and the other shorter, then departs.  Alice, after accidentally growing to an enormous height, encounters a Pigeon who mistakes her elongated neck for a serpent. The Pigeon complains about serpents stealing its eggs, convinced that Alice is one. Alice clarifies she's a girl, but the Pigeon remains skeptical. Finally, Alice uses the mushroom to shrink back to a smaller size and stumbles upon a tiny house, planning to shrink further before approaching it."
+            },
+            {
+              "chapterId": "6",
+              "chapterTitle": "CHAPTER-VI",
+              "summary": "Alice encounters a Fish-Footman and a Frog-Footman delivering an invitation from the Queen to the Duchess for a croquet game. She enters the Duchess's house and finds the Duchess, a baby, and a grinning Cheshire Cat inside. The cook throws dishes at the Duchess and baby, creating chaos.  Alice takes the baby, which transforms into a pig, and then encounters the Cheshire Cat again. The Cat gives her directions to the Hatter and the March Hare, both of whom are mad. Following the Cat's advice, Alice heads toward the March Hare's house."
+            },
+            {
+              "chapterId": "7",
+              "chapterTitle": "CHAPTER-VII",
+              "summary": "Alice stumbles upon a Mad Tea Party hosted by the March Hare, the Hatter, and a sleepy Dormouse. They engage in nonsensical conversations and riddles, including the infamous \"Why is a raven like a writing-desk?\"  Alice is baffled by their logic and behavior, particularly their obsession with time and the Hatter's claim that he quarreled with Time itself.  Feeling frustrated by the absurd situation, Alice tries to follow the Dormouse's rambling story about three sisters living at the bottom of a treacle-well. However, the illogical narrative and constant interruptions push Alice to her limit. Incensed by their rudeness, Alice abandons the tea party, dismissing it as the stupidest she's ever attended.  Seeking refuge, Alice discovers a door in a tree and decides to enter, finding herself back in the familiar hall with the glass table and the golden key."
+            },
+            {
+              "chapterId": "8",
+              "chapterTitle": "CHAPTER-VIII",
+              "summary": "Alice enters the Queen's croquet ground and finds three gardeners painting white roses red. They fear for their lives as the roses were supposed to be red, and the Queen has a penchant for beheadings. The Queen arrives with a procession of soldiers, courtiers, and royal children. Alice witnesses the absurdity of the court, where rules are nonsensical and fear reigns supreme. The Queen invites Alice to play croquet, a bizarre game with live hedgehogs as balls and flamingoes as mallets. Alice struggles to navigate the game's chaos and the Queen's volatile temper. The Cheshire Cat appears and converses with Alice, commenting on the unfairness of the game. The Queen overhears Alice's criticism and surprisingly does not threaten her. The King expresses a desire to behead the Cheshire Cat, but the Cat's disembodied head sparks a debate about whether it can be beheaded without a body. The executioner is sent to fetch the Duchess, and in the meantime, the Cheshire Cat disappears. The chapter ends with Alice, bewildered and apprehensive, rejoining the chaotic croquet game."
+            },
+            {
+              "chapterId": "9",
+              "chapterTitle": "CHAPTER-IX",
+              "summary": "Alice, having parted ways with the White Rabbit, encounters the Duchess again.  The Duchess is now amicable and insists on finding a 'moral' in everything, much to Alice's annoyance.  Their conversation is interrupted by the arrival of the Queen of Hearts, who threatens the Duchess with execution.  After the Duchess leaves, the Queen takes Alice to see the Gryphon, who then escorts her to the Mock Turtle. The Mock Turtle, a creature full of self-pity, recounts his experience as a real turtle going to a school in the sea.  He describes a curious curriculum including lessons in 'Reeling and Writhing', 'Ambition, Distraction, Uglification, and Derision', and 'Drawling, Stretching, and Fainting in Coils'.  The Gryphon joins in, mentioning his own experience with the Classics master.  Alice's attempts to learn more about the school day are cut short by the Gryphon, who steers the conversation towards the topic of games."
+            },
+            {
+              "chapterId": "10",
+              "chapterTitle": "CHAPTER-X",
+              "summary": "The chapter begins with the Mock Turtle and the Gryphon describing the Lobster Quadrille, a dance performed under the sea. They attempt to teach the dance to Alice, acting out the steps with great enthusiasm. The Mock Turtle then sings a song about a whiting that wanted to join the Lobster Quadrille but was thrown out to sea. After the song, the Gryphon asks Alice to recite a poem, but she gets the words mixed up. They then ask her to explain her adventures, but the Mock Turtle is confused by her story and asks for an explanation. The Gryphon, however, wants to hear more of the story and asks Alice to continue. She attempts to recite another poem, but again gets the words wrong. Finally, the Mock Turtle sings a song about “Beautiful Soup,” but they are interrupted by the start of a trial and rush off, leaving Alice curious about what is happening."
+            },
+            {
+              "chapterId": "11",
+              "chapterTitle": "CHAPTER-XI",
+              "summary": "Chapter 11, titled “Who Stole the Tarts?”, takes Alice to the court of the King and Queen of Hearts for the trial of the Knave, accused of stealing the Queen's tarts. Alice observes the unusual courtroom proceedings, noting the jury composed of animals and birds writing down their names for fear of forgetting them. The chaotic trial commences with the Hatter as the first witness, struggling to provide coherent testimony about a tea party with the March Hare and Dormouse. Alice, meanwhile, experiences another growth spurt, drawing complaints from the Dormouse. The trial continues with the increasingly frustrated King, the easily enraged Queen, and a series of nonsensical testimonies, including a brief appearance by the Duchess's cook. As the chaotic trial proceeds with little progress, the White Rabbit announces the next witness: Alice herself."
+            },
+            {
+              "chapterId": "12",
+              "chapterTitle": "CHAPTER-XII",
+              "summary": "This chapter marks the climax of Alice's trial. Alice, now enormous, accidentally causes chaos in the courtroom. The King, attempting to appear authoritative, introduces nonsensical rules and attempts to use a poem (likely the Jabberwocky) as evidence against the Knave. The nonsensical nature of the trial escalates, with the King making absurd pronouncements and the Queen's volatile temper on full display. Alice, unafraid due to her size, openly challenges the court's absurdity, declaring everyone to be just a pack of cards. The dream abruptly ends with Alice waking up in her sister's lap, leaving the reader to ponder the dream's meaning. The final passage shifts to Alice's sister, who daydreams about Alice growing up and sharing fantastical stories, perhaps even the tale of Wonderland itself. This ending provides a gentle close to the book, highlighting the power of imagination and storytelling."
+            }
+          ],
+          "timestamp": 1727136480129
+        },
+        "55": {
+          "novelId": "55",
+          "summaries": [
+            null,
+            {
+              "chapterId": "1",
+              "chapterTitle": "Chapter-I",
+              "summary": "This chapter introduces Dorothy, an orphan living with her austere Uncle Henry and Aunt Em on a bleak Kansas prairie farm. Their gray, desolate surroundings reflect their equally somber lives. Dorothy finds solace and laughter only in her playful black dog, Toto. One day, Uncle Henry spots an approaching cyclone. As a fierce wind whips around their house, Aunt Em rushes to the cyclone cellar. Dorothy, attempting to follow with Toto, is caught in a bizarre event: the cyclone lifts their house into the air. Amidst the howling wind and darkness, the house is carried away like a feather, with Dorothy and a terrified Toto trapped inside. As hours pass, Dorothy's initial fear gives way to a calm resolve to face whatever awaits her. Despite the precarious situation, the gentle rocking motion lulls her to sleep with Toto by her side."
+            },
+            {
+              "chapterId": "2",
+              "chapterTitle": "Chapter-II",
+              "summary": "Dorothy awakens in a strange and beautiful land, discovering her house landed on the Wicked Witch of the East, killing her. The grateful Munchkins, inhabitants of this land, hail Dorothy as a sorceress. The good Witch of the North arrives, confirming the death of the Wicked Witch of the East and gifting Dorothy the witch's silver shoes. Learning of Dorothy's desire to return home to Kansas, the Witch of the North informs her about the Great Wizard, Oz, who resides in the Emerald City. Unable to accompany Dorothy, the Witch of the North suggests seeking Oz's help.  She kisses Dorothy's forehead for protection and points her towards the yellow brick road leading to the Emerald City. Dorothy, with Toto, embarks on her journey, leaving the Munchkins and the magical land of the East behind."
+            },
+            {
+              "chapterId": "3",
+              "chapterTitle": "Chapter-III",
+              "summary": "Feeling hungry, Dorothy prepares a breakfast of bread, butter, and fruit for herself and Toto. With the intention of journeying to the Emerald City, she dresses in her blue and white checked gingham dress and the silver shoes she found. Setting off with Toto, she follows the yellow brick road, marveling at the picturesque landscape and the friendly Munchkins who greet her with bows.  As evening approaches, Dorothy comes across a lively gathering at a Munchkin house. She is invited to supper and for the night by Boq, a wealthy Munchkin. People assume she is a sorceress due to her silver shoes and the white in her dress. Dorothy, however, knows she's just an ordinary girl who landed in this strange land by chance. Boq warns her about the dangers on the way to the Emerald City. Determined, Dorothy continues her journey the next morning. Resting near a cornfield, she encounters a Scarecrow.  To her surprise, the Scarecrow winks and nods. It expresses its desire for brains, tired of being perceived as a fool. Dorothy, feeling sympathetic, promises to ask the Wizard of Oz for help. As they continue along the yellow brick road, the Scarecrow reveals his only fear: a lighted match."
+            },
+            {
+              "chapterId": "4",
+              "chapterTitle": "Chapter-IV",
+              "summary": "Dorothy and the Scarecrow continue their journey down the yellow brick road, encountering increasingly difficult terrain. As the farmland grows more dismal, they stop for a roadside lunch, during which Dorothy shares her longing for home despite its dullness compared to Oz. This concept eludes the Scarecrow, highlighting his desire for brains. He recounts his brief existence, from his creation by the farmer to his realization of his own lack of intelligence. Determined to remedy this, he eagerly anticipates their meeting with the Great Oz. As night falls, the travelers enter a dense forest and eventually find refuge in a small cottage made of logs and branches, where Dorothy sleeps soundly while the tireless Scarecrow keeps watch until morning."
+            },
+            {
+              "chapterId": "5",
+              "chapterTitle": "Chapter-V",
+              "summary": "Dorothy, the Scarecrow, and Toto set off from the cottage to find water. They encounter the Tin Woodman, rusted stiff in the forest. Dorothy oils his joints, freeing him. The grateful Tin Woodman reveals his desire for a heart, explaining how the Wicked Witch of the East enchanted his axe, leading to the loss of his limbs, head, and eventually, his heart. He joins their journey to the Emerald City to request a heart from Oz.  As they travel, the Tin Woodman uses his axe to clear a path. The Scarecrow's lack of brains causes him to stumble, leading to a discussion about the merits of brains versus a heart. Dorothy, meanwhile, worries about their dwindling food supply, a concern neither the Scarecrow nor the Tin Woodman share."
+            },
+            {
+              "chapterId": "6",
+              "chapterTitle": "Chapter-VI",
+              "summary": "Dorothy and her companions continue their journey through the forest toward the Emerald City, encountering obstacles and making a new friend. First, they encounter the Cowardly Lion, who initially threatens them but reveals his deep shame about being a coward despite being the King of Beasts. Dorothy scolds him for his cowardice, leading the Lion to join their group in hopes that Oz can give him courage.  The group, now consisting of Dorothy, Toto, the Scarecrow, the Tin Woodman, and the Cowardly Lion, continues their journey. The Tin Woodman accidentally steps on and kills a beetle. This incident deeply saddens him, as he strives to be kind due to lacking a heart.  The Tin Woodman’s tears cause his jaw to rust shut. The Scarecrow helps by oiling the Tin Woodman’s jaw, allowing him to speak again. This experience makes the Tin Woodman determined to be even more cautious and kind to all creatures, acknowledging his lack of a heart makes him more prone to wrongdoing."
+            },
+            {
+              "chapterId": "7",
+              "chapterTitle": "Chapter-VII",
+              "summary": "Camping in the forest, Dorothy and her companions face hunger, which the Lion and Scarecrow try to alleviate. Their journey towards the Emerald City is hindered by a deep ditch, which the Lion helps them cross with his powerful leaps. Deeper in the forest, they encounter another obstacle, an even wider chasm. The Scarecrow's quick thinking leads them to use a fallen tree as a bridge. However, they are confronted by two monstrous Kalidahs.  The Lion's roar momentarily halts the beasts, but they resume their attack.  In a stroke of luck, the Scarecrow instructs the Tin Woodman to chop down the tree, causing the Kalidahs to fall to their deaths. Relieved but wearier, the group continues their journey until they reach a swiftly flowing river, hindering their progress once more. As night falls, they set up camp, with the Tin Woodman working tirelessly to build a raft for their journey across the river. Dorothy, despite the day's challenges, finds comfort in dreaming of the Emerald City and the hope of returning home."
+            },
+            {
+              "chapterId": "8",
+              "chapterTitle": "Chapter-VIII",
+              "summary": "Refreshed from their rest, Dorothy and her companions build a raft to cross the river and continue their journey to the Emerald City. However, the strong current sweeps them away from the yellow brick road, further into danger. The Scarecrow ends up stranded in the middle of the river, clinging to his pole.  The Lion bravely attempts to pull the raft to safety but the current proves too strong. They eventually reach the shore, far off course.  A stork helps reunite the group by rescuing the Scarecrow from the river. As they continue their journey, they encounter a vast field of beautiful but deadly poppies. The Lion succumbs to their sleep-inducing scent first. Despite the Tin Woodman and Scarecrow's best efforts to keep Dorothy awake, she too falls asleep from the poppies' fumes. Realizing the danger, the Scarecrow and the Tin Woodman carry Dorothy away from the field, leaving the sleeping Lion behind. They find a safe spot for Dorothy to rest, hoping the fresh air will awaken her."
+            },
+            {
+              "chapterId": "9",
+              "chapterTitle": "Chapter-IX",
+              "summary": "The chapter opens with Dorothy, Scarecrow, and Tin Woodman nearing the yellow brick road. The Tin Woodman saves a field mouse from a wildcat by killing the wildcat with his axe. The grateful mouse reveals herself to be the Queen of the Field Mice.  In gratitude, she and her fellow mice pledge their service to the Tin Woodman.  The Scarecrow devises a plan to rescue the Cowardly Lion from the poppy field using the mice. The Queen summons thousands of mice, each bringing a string.  The Tin Woodman builds a truck from tree limbs and the mice are harnessed to it.  Dorothy awakens and is surprised by the scene. The mice, with the help of the Scarecrow and Tin Woodman, pull the Lion on the truck out of the poppy field, saving him from the poisonous flowers. Dorothy thanks the mice, who then scurry away, with the Queen promising their help if needed in the future."
+            },
+            {
+              "chapterId": "10",
+              "chapterTitle": "Chapter-X",
+              "summary": "The chapter follows Dorothy and her companions as they escape the poppy field thanks to field mice and resume their journey on the Yellow Brick Road. They encounter locals dressed in green, confirming their arrival in the Land of Oz. Seeking food and shelter, they are warned about the elusive and powerful Oz, who is said to assume various forms and is rarely seen. Despite the challenge, Dorothy remains determined to see Oz. Donning green spectacles provided by the Guardian of the Gates, they enter the Emerald City, dazzled by its shimmering beauty."
+            },
+            {
+              "chapterId": "11",
+              "chapterTitle": "Chapter-XI",
+              "summary": "Dorothy and her friends are dazzled by the Emerald City's splendor, with its green buildings, streets, and even sky. They are led to the Palace of Oz, where they learn that Oz will only grant them an audience one by one. Dorothy is the first to see Oz, who appears as a giant Head. He demands she kill the Wicked Witch of the West in exchange for his help to return to Kansas. The Scarecrow encounters Oz as a lovely Lady, who also demands the Witch's death before granting him brains. The Tin Woodman faces Oz as a terrifying Beast, who offers him a heart in exchange for the Witch's demise. Finally, the Lion meets Oz as a Ball of Fire, who promises him courage upon the Witch's death. Despite their fear and reservations about killing, Dorothy and her friends agree to journey to the land of the Winkies and attempt to defeat the Wicked Witch of the West, as it is their only hope of getting what they desire."
+            },
+            {
+              "chapterId": "12",
+              "chapterTitle": "Chapter-XII",
+              "summary": "Dorothy and her friends continue their journey west to find the Wicked Witch of the West. The Guardian of the Gates warns them of her power, but they are determined to destroy her.  Along the way, the Wicked Witch uses her magic to send wolves, crows, and bees to attack Dorothy and her companions, but the Scarecrow and the Tin Woodman defeat them all. The Witch then unleashes her flying monkeys, who manage to capture the Lion, destroy the Scarecrow and scatter the Woodman’s pieces, but they are unable to hurt Dorothy because of the Good Witch’s kiss.  Dorothy is taken to the witch’s castle, where she is forced to work. The Witch imprisons the Lion and plans to make him work for her. Dorothy secretly feeds the Lion, and they plot their escape. Desperate to obtain the power of Dorothy’s silver shoes, the Witch tricks Dorothy into stumbling, causing her to lose one of the shoes.  Finally, the witch threatens Dorothy with her umbrella but Toto bites the witch on the leg.  Dorothy throws a bucket of water on the witch to stop her, unaware that water is fatal to the witch and melts her away, freeing Dorothy and her friends."
+            },
+            {
+              "chapterId": "13",
+              "chapterTitle": "Chapter-XIII",
+              "summary": "This chapter details Dorothy's liberation of the Winkies and the rescue of the Scarecrow and the Tin Woodman. After Dorothy melts the Wicked Witch, she frees the Cowardly Lion. Together, they free the Winkies from enslavement. Longing for their friends, they set out and find the Tin Woodman battered and rusted. The Winkie tinsmiths diligently repair him over three days. Next, they find the Scarecrow's clothes and restuff them, bringing him back to life. With their reunion complete, they prepare to journey to the Emerald City. The grateful Winkies shower them with gifts: gold collars for Toto and the Lion, a diamond bracelet for Dorothy, a gold-headed walking stick for the Scarecrow, and a jeweled silver oil-can for the Tin Woodman. Dorothy finds the Golden Cap and decides to wear it, unaware of its powers.  Finally, they bid farewell to the Winkies and embark on their journey to Oz."
+            },
+            {
+              "chapterId": "14",
+              "chapterTitle": "Chapter-XIV",
+              "summary": "This chapter recounts Dorothy's reunion with the Winged Monkeys and their journey to the Emerald City. Lost in a field of flowers, Dorothy and her friends are exhausted and uncertain of their direction.  Dorothy summons the field mice, including their Queen, who reminds her of the Golden Cap's power. The Queen suggests summoning the Winged Monkeys to transport them to the Emerald City. Upon arrival, the Monkey King explains their servitude to the Golden Cap's owner. He narrates the tale of Princess Gayelette and her betrothed Quelala, revealing how his mischievous grandfather tricked Quelala, leading Gayelette to bind the Winged Monkeys to serve the Golden Cap's owner. The King recounts their servitude to Quelala and later, the Wicked Witch of the West, emphasizing their relief at being under Dorothy's more benevolent command. The Monkeys swiftly transport Dorothy and her companions to the Emerald City, leaving them grateful for the swift resolution to their predicament."
+            },
+            {
+              "chapterId": "15",
+              "chapterTitle": "Chapter-XV",
+              "summary": "The chapter begins with Dorothy and her companions returning to the Emerald City after melting the Wicked Witch of the West.  They expect to be received by Oz immediately, but he makes them wait for several days. Annoyed by his disregard for their hardships, the Scarecrow threatens to unleash the Winged Monkeys upon Oz. This threat terrifies Oz, who agrees to see them the next morning.  However, when they arrive at the Throne Room, Oz is nowhere to be seen. A booming voice claiming to be Oz addresses them, demanding to know why they seek him. After they each remind him of their promises, the voice claims the Wicked Witch’s death was so sudden that he needs time to think.  The travelers refuse to wait any longer. The Lion lets out a fierce roar that topples a screen, revealing a small, ordinary-looking old man. The man admits to being Oz and begs them not to harm him.  He confesses that he is not a real wizard but a humbug who, as a young balloonist from Omaha, was blown off course and landed in Oz. The Oz people, believing him to be a powerful wizard, granted him authority and followed his every command. He kept up the charade, using tricks and illusions to maintain his image as a great and terrible wizard.  Oz reveals how he used simple props and ventriloquism to appear as a giant head, a beautiful lady, a terrifying beast, and a ball of fire. He further explains that the Emerald City is not actually green but appears so because he had everyone wear green-tinted spectacles.  Despite being a humbug, Oz assures them of his good intentions and promises to help them. He agrees to try to find a way to send Dorothy home and promises to give the Scarecrow brains, the Tin Woodman a heart, and the Lion courage. In return, he makes them promise to keep his true identity a secret. Relieved, the travelers agree and look forward to a comfortable stay in the palace, hoping Oz will fulfill his promises."
+            },
+            {
+              "chapterId": "16",
+              "chapterTitle": "Chapter-XVI",
+              "summary": "The Scarecrow, eager to receive his brains, visits Oz. Despite his initial nervousness about having his head removed, the Scarecrow agrees to the procedure. Oz replaces the straw in his head with a mixture of bran, pins, and needles. Pleased with his “new brains,” the Scarecrow returns to Dorothy and the others, feeling wise and confident. Next, the Tin Woodman requests a heart from Oz. Oz cuts a hole in the Woodman's chest and places a heart made of silk and sawdust inside, patching him up neatly. The Woodman expresses gratitude for Oz's kindness and rejoins his friends. Finally, the Lion approaches Oz, seeking courage. Oz presents him with a green liquid in a beautiful dish, claiming it will instill courage once ingested. Despite initial hesitation, the Lion drinks the liquid and feels instantly full of courage. Alone, Oz reflects on his success in satisfying his visitors, acknowledging his “humbug” methods. He realizes that while fulfilling the Scarecrow, Tin Woodman, and Lion's wishes was relatively simple due to their belief in his abilities, sending Dorothy back to Kansas presents a more significant challenge."
+            },
+            {
+              "chapterId": "17",
+              "chapterTitle": "Chapter-XVII",
+              "summary": "Dorothy remains disheartened as she yearns for home, while her companions revel in their newfound contentment. On the fourth day, Oz summons Dorothy and reveals his plan to escape the country using a hot air balloon. He confesses to being a fraud and expresses his desire to return to Kansas. Together, they spend three days constructing a balloon from green silk. Oz informs his people he's visiting a brother Wizard and prepares for departure. As the balloon fills with hot air, Dorothy frantically searches for Toto. Just as she reaches the basket, the ropes snap, and the balloon ascends with Oz, leaving Dorothy stranded. The people of Oz, though saddened by his departure, find solace in the Scarecrow's rule, remembering Oz with fondness."
+            },
+            {
+              "chapterId": "18",
+              "chapterTitle": "Chapter-XVIII",
+              "summary": "This chapter details the aftermath of the Wizard's departure and Dorothy's persistent desire to return home to Kansas.  Despite the Scarecrow's newfound rule of the Emerald City and the contentment of the Tin Woodman and the Lion, Dorothy yearns for home.  Their attempts to utilize the Winged Monkeys fail, as they are bound to Oz.  Hope emerges through the advice of the soldier with green whiskers, who suggests seeking help from Glinda, the Good Witch of the South.  Despite the perilous journey ahead, Dorothy, accompanied by the Scarecrow, the Tin Woodman, and the Lion, decides to embark on a journey southwards to seek Glinda's assistance, with the hope that she holds the key to Dorothy's return to Kansas."
+            },
+            {
+              "chapterId": "19",
+              "chapterTitle": "Chapter-XIX",
+              "summary": "After bidding farewell to the Emerald City, Dorothy and her companions set off towards the Land of the South.  Rejuvenated by the fresh air and eager to return home, their journey begins pleasantly.  However, their path leads them to a dense forest.  The trees on the edge of this forest prove hostile, using their branches to attack the travelers. The Scarecrow is unhurt but repeatedly tossed aside, while Toto is briefly caught and shaken. The Tin Woodman saves the day using his axe to chop through the troublesome branches.  They realize only the first row of trees, likely acting as guards, possess this ability. Relieved to be past the animated trees, they reach the other side of the forest only to find their path blocked by a tall, smooth wall resembling white china."
+            },
+            {
+              "chapterId": "20",
+              "chapterTitle": "Chapter-XX",
+              "summary": "Dorothy and her companions climb over a wall and find themselves in a strange land populated by delicate china people. They encounter a china milkmaid whose cow's leg is broken due to the travelers' clumsiness. Dorothy then meets a china Princess who explains their fragile nature and how they become stiff when taken away from their country. They also come across a cracked china Clown.  Realizing the fragility of this world, they carefully navigate their way through, accidentally breaking a china church with the Lion's tail as they climb another wall to exit the Dainty China Country."
+            },
+            {
+              "chapterId": "21",
+              "chapterTitle": "Chapter-XXI",
+              "summary": "Descending from the china wall, the travelers find themselves in a wild and challenging landscape. They eventually reach a dense, ancient forest, which the Lion finds magnificent but the Scarecrow finds gloomy. As they journey, they encounter a gathering of distressed animals, who reveal they are being terrorized by a monstrous spider-like creature. The Lion, eager to prove his bravery, volunteers to confront the monster. He locates the sleeping spider and, using strategic cunning, swiftly kills it. Victorious, the Lion returns to the grateful animals, who declare him their King. The Lion accepts their allegiance but promises to rule them after he helps Dorothy return to Kansas."
+            },
+            {
+              "chapterId": "22",
+              "chapterTitle": "Chapter-XXII",
+              "summary": "Having safely navigated the forest, Dorothy and her companions encounter a steep hill inhabited by Hammer-Heads, strange creatures with projectile heads.  When the Hammer-Heads refuse them passage, the Scarecrow and Lion are easily defeated. Realizing the danger, Dorothy summons the Winged Monkeys for the final time. The Monkeys carry them over the hill to the beautiful, prosperous country of the Quadlings, a land of red.  After a farm wife provides them with a hearty meal and directions to Glinda's castle, they continue their journey.  They arrive at the magnificent castle, where a girl soldier grants them entry after obtaining permission from Glinda."
+            },
+            {
+              "chapterId": "23",
+              "chapterTitle": "Chapter-XXIII",
+              "summary": "Before their meeting with Glinda, Dorothy and her companions prepare themselves in the castle. Glinda, a beautiful and young witch with red hair and blue eyes, greets them warmly. Dorothy recounts their adventures and expresses her desire to return to Kansas, concerned for her Aunt Em and Uncle Henry. Glinda promises to help Dorothy return home in exchange for the Golden Cap. Dorothy gladly agrees, realizing its uselessness to her now. Glinda then addresses Dorothy's companions, promising to use the Golden Cap's powers to help them achieve their desires.  She will send the Scarecrow to the Emerald City, the Tin Woodman to the Winkies, and the Cowardly Lion to his forest. Afterward, she'll give the Cap to the King of the Monkeys, granting them permanent freedom. Glinda reveals that Dorothy's Silver Shoes possess the power to transport her anywhere in the world in three steps. Dorothy, overjoyed, bids farewell to her friends and Glinda.  Holding Toto, she clicks her heels three times, wishing to be back in Kansas.  Instantly, she finds herself back on the Kansas prairie, near her Uncle Henry and her new home. The Silver Shoes, having served their purpose, disappear. "
+            },
+            {
+              "chapterId": "24",
+              "chapterTitle": "Chapter-XXIV",
+              "summary": "This brief chapter depicts the joyous reunion between Dorothy and her Aunt Em. After her adventures in Oz, Dorothy returns home and is met with loving embraces and a flurry of questions. The chapter emphasizes the comfort and happiness Dorothy feels upon returning to the familiarity of home and family, highlighting the emotional core of her journey."
+            }
+          ],
+          "timestamp": 1727810991164
+        }
+      }
+    },
+    "names": {
+      "11": { "id": "11", "name": "Alice in Wonderland" },
+      "55": { "id": "55", "name": "Wizard of Oz" }
+    }
+  }
+}
