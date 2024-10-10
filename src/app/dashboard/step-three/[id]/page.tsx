@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import getNovelName from '@/lib/utils/getNovelName';
-import StepContentHeader from '@/components/dashboard/steps/StepContentHeader';
+import HeroJourney from '@/components/dashboard/HeroJourney';
 
 export default async function StepThree({
   params,
@@ -11,13 +11,5 @@ export default async function StepThree({
   const novelName = await getNovelName(id);
   if (!novelName) notFound();
 
-  return (
-    <StepContentHeader
-      novelId={id}
-      currentAction={`Get hero journey stages for ${novelName}`}
-      nextAction="Step four: Get scenes for each chapter"
-      currentStepName="Three"
-      nextStepName="four"
-    ></StepContentHeader>
-  );
+  return <HeroJourney novelId={id} novelName={novelName} />;
 }
