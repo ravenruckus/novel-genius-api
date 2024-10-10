@@ -22,8 +22,14 @@ export interface ChapterSummary {
 }
 
 export interface ChapterStage {
-  stage: string;
   chapterId: string;
+  chapterTitle: string;
+  stage: string;
+  stageExplanation: string;
+}
+
+export interface StagesData {
+  stages: ChapterStage[];
 }
 
 export interface Scene {
@@ -35,6 +41,13 @@ export interface Novel {
   id: string;
   name: string;
   chapters: Dictionary<ChapterContent>;
+}
+
+export interface FinalChapter
+  extends ChapterContent,
+    ChapterSummary,
+    ChapterStage {
+  scenes: Dictionary<Scene>;
 }
 
 export interface FinalChapter
