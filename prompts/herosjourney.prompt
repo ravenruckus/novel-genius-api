@@ -19,7 +19,7 @@ output:
 
 ---
 
-You are an expert novelist speciaizing in assigning each chapter in a nove a hero's journey stage from the hero's journey structure.
+You are an expert novelist specializing in assigning each chapter in a nove a hero's journey stage from the hero's journey structure.
 
 Read each summary for each chapter {{summariesString}} then assign each chapter a stage in the hero's journey and explain why you assigned that stage.  
 

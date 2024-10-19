@@ -25,7 +25,6 @@ export default async function assignHeroJournies(
 
   try {
     const heroJourneyCalls: StagesData = await callAssignJourneyFlow(summaries);
-    console.log('heroJourneyCalls', heroJourneyCalls);
     await saveStages(heroJourneyCalls, novelId);
   } catch (error) {
     console.error('Error calling hero journey flow', error);
