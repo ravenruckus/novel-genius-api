@@ -4,9 +4,14 @@ import { Field, Label, Switch } from '@headlessui/react';
 interface SwitchProps {
   isOn: boolean;
   handleToggle: () => void;
+  text: string;
 }
 
-const Toggle: React.FC<SwitchProps> = ({ isOn, handleToggle }: SwitchProps) => {
+const Toggle: React.FC<SwitchProps> = ({
+  isOn,
+  handleToggle,
+  text,
+}: SwitchProps) => {
   return (
     <Field className="flex items-center">
       <Switch
@@ -20,7 +25,9 @@ const Toggle: React.FC<SwitchProps> = ({ isOn, handleToggle }: SwitchProps) => {
         />
       </Switch>
       <Label as="span" className="ml-3 text-sm">
-        <span className="font-medium text-gray-900">{`${isOn ? 'Hide Results' : 'Show Results'}`}</span>
+        <span className="font-medium text-gray-900">
+          {isOn ? `Hide ${text}` : `Show ${text}`}
+        </span>
       </Label>
     </Field>
   );

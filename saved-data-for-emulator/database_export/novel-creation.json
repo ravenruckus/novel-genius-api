@@ -11,6 +11,254 @@
         "isPublic": false,
         "name": "Wizard of Oz"
       },
+      "stages": {
+        "11": {
+          "novelId": "11",
+          "stages": [
+            {
+              "chapterId": "1",
+              "chapterTitle": "CHAPTER-I",
+              "stage": "The Ordinary World",
+              "stageExplanation": "Alice is bored with her ordinary life and her sister's book, establishing her starting point before the adventure."
+            },
+            {
+              "chapterId": "1",
+              "chapterTitle": "CHAPTER-I",
+              "stage": "The Call to Adventure",
+              "stageExplanation": "The White Rabbit running by, declaring he's late, sparks Alice's curiosity and presents a disruption to her ordinary world."
+            },
+            {
+              "chapterId": "1",
+              "chapterTitle": "CHAPTER-I",
+              "stage": "Crossing the Threshold",
+              "stageExplanation": "Alice's decision to follow the White Rabbit down the rabbit hole signifies her commitment to the unknown and her entrance into the special world of Wonderland."
+            },
+            {
+              "chapterId": "2",
+              "chapterTitle": "CHAPTER-II",
+              "stage": "Tests, Allies, and Enemies",
+              "stageExplanation": "Alice faces her first challenges: changing size, navigating the locked door, and encountering the frantic White Rabbit. She also interacts with the Mouse, a potential ally."
+            },
+            {
+              "chapterId": "3",
+              "chapterTitle": "CHAPTER-III",
+              "stage": "Tests, Allies, and Enemies",
+              "stageExplanation": "Alice encounters more inhabitants of Wonderland, participating in the Caucus-race and encountering the Dodo, Lory, and other animals. This chapter emphasizes the strangeness of Wonderland and its inhabitants."
+            },
+            {
+              "chapterId": "4",
+              "chapterTitle": "CHAPTER-IV",
+              "stage": "Tests, Allies, and Enemies",
+              "stageExplanation": "Alice's encounters with the White Rabbit's house, the growing potion, and the giant puppy are further tests and challenges in this new world."
+            },
+            {
+              "chapterId": "5",
+              "chapterTitle": "CHAPTER-V",
+              "stage": "Meeting the Mentor",
+              "stageExplanation": "The Caterpillar, with his cryptic advice about the mushroom, acts as a guide, albeit an unconventional one, providing Alice with a tool for navigating Wonderland."
+            },
+            {
+              "chapterId": "6",
+              "chapterTitle": "CHAPTER-VI",
+              "stage": "Tests, Allies, and Enemies",
+              "stageExplanation": "Alice's encounters with the Duchess, the Cheshire Cat, and the chaotic household present more challenges and introduce new, eccentric characters."
+            },
+            {
+              "chapterId": "7",
+              "chapterTitle": "CHAPTER-VII",
+              "stage": "Approach to the Inmost Cave",
+              "stageExplanation": "The Mad Tea Party can be seen as a point of reflection for Alice. The nonsensical nature of the event and its participants force her to confront the absurdity of Wonderland, potentially leading to a shift in her perspective."
+            },
+            {
+              "chapterId": "8",
+              "chapterTitle": "CHAPTER-VIII",
+              "stage": "Tests, Allies, and Enemies",
+              "stageExplanation": "Alice's encounter with the Queen of Hearts and her participation in the bizarre croquet game are further tests of her adaptability and resilience in Wonderland."
+            },
+            {
+              "chapterId": "9",
+              "chapterTitle": "CHAPTER-IX",
+              "stage": "Tests, Allies, and Enemies",
+              "stageExplanation": "Meeting the Gryphon and the Mock Turtle, hearing their stories, and learning about the unusual school system continue to immerse Alice in the unique logic of Wonderland."
+            },
+            {
+              "chapterId": "10",
+              "chapterTitle": "CHAPTER-X",
+              "stage": "Approach to the Inmost Cave",
+              "stageExplanation": "The Lobster Quadrille and the Mock Turtle's songs create a pause in the action, allowing Alice to process her experiences and prepare for the upcoming trial."
+            },
+            {
+              "chapterId": "11",
+              "chapterTitle": "CHAPTER-XI",
+              "stage": "The Ordeal",
+              "stageExplanation": "The trial represents a culmination of Alice's experiences in Wonderland, forcing her to confront the nonsensical rules and navigate the chaotic environment."
+            },
+            {
+              "chapterId": "12",
+              "chapterTitle": "CHAPTER-XII",
+              "stage": "The Resurrection",
+              "stageExplanation": "Alice's outburst against the court, declaring everyone to be cards, represents a moment of realization and defiance.  She's no longer willing to play by Wonderland's rules."
+            },
+            {
+              "chapterId": "12",
+              "chapterTitle": "CHAPTER-XII",
+              "stage": "Return with the Elixir",
+              "stageExplanation": "Alice's return to the ordinary world, though abrupt, signifies the end of her journey. While there's no tangible elixir, Alice likely returns with a changed perspective and a greater appreciation for imagination."
+            }
+          ],
+          "timestamp": 1728506336500
+        },
+        "55": {
+          "novelId": "55",
+          "stages": [
+            {
+              "chapterId": "1",
+              "chapterTitle": "Chapter-I",
+              "stage": "The Ordinary World",
+              "stageExplanation": "This chapter introduces Dorothy's mundane life on the Kansas prairie, establishing her ordinary world before the cyclone hits."
+            },
+            {
+              "chapterId": "2",
+              "chapterTitle": "Chapter-II",
+              "stage": "The Call to Adventure",
+              "stageExplanation": "The cyclone transporting Dorothy to Oz serves as the call to adventure, thrusting her into an unfamiliar world."
+            },
+            {
+              "chapterId": "3",
+              "chapterTitle": "Chapter-III",
+              "stage": "Meeting the Mentor",
+              "stageExplanation": "Dorothy meets the Good Witch of the North, who provides guidance and direction, acting as her mentor."
+            },
+            {
+              "chapterId": "4",
+              "chapterTitle": "Chapter-IV",
+              "stage": "Crossing the Threshold",
+              "stageExplanation": "Dorothy's commitment to following the yellow brick road signifies her crossing the threshold into the magical world of Oz."
+            },
+            {
+              "chapterId": "5",
+              "chapterTitle": "Chapter-V",
+              "stage": "Tests, Allies, and Enemies",
+              "stageExplanation": "This chapter introduces the recurring motif of tests, allies, and enemies as Dorothy frees the Tin Woodman and faces the challenges of the journey."
+            },
+            {
+              "chapterId": "6",
+              "chapterTitle": "Chapter-VI",
+              "stage": "Tests, Allies, and Enemies",
+              "stageExplanation": "The encounter with the Cowardly Lion and the Tin Woodman's act of killing a beetle further exemplify the trials and companions Dorothy encounters."
+            },
+            {
+              "chapterId": "7",
+              "chapterTitle": "Chapter-VII",
+              "stage": "Tests, Allies, and Enemies",
+              "stageExplanation": "This chapter continues the pattern of tests and allies as the group faces the ditch, the chasm, and the Kalidahs."
+            },
+            {
+              "chapterId": "8",
+              "chapterTitle": "Chapter-VIII",
+              "stage": "Tests, Allies, and Enemies",
+              "stageExplanation": "Dorothy and her companions face the dangerous poppy field, highlighting the ongoing challenges in their journey."
+            },
+            {
+              "chapterId": "9",
+              "chapterTitle": "Chapter-IX",
+              "stage": "Tests, Allies, and Enemies",
+              "stageExplanation": "The rescue of the Cowardly Lion from the poppy field with the help of the mice showcases the importance of allies in overcoming obstacles."
+            },
+            {
+              "chapterId": "10",
+              "chapterTitle": "Chapter-X",
+              "stage": "Approach to the Inmost Cave",
+              "stageExplanation": "Their arrival at the Emerald City and the warnings about the elusive Oz create a sense of approaching the central challenge."
+            },
+            {
+              "chapterId": "11",
+              "chapterTitle": "Chapter-XI",
+              "stage": "Approach to the Inmost Cave",
+              "stageExplanation": "Oz's demand to kill the Wicked Witch of the West sets the stage for the primary ordeal Dorothy and her friends must overcome."
+            },
+            {
+              "chapterId": "12",
+              "chapterTitle": "Chapter-XII",
+              "stage": "The Ordeal",
+              "stageExplanation": "The confrontation with the Wicked Witch of the West and her various attacks represent the peak of Dorothy's challenges and her bravery in facing them."
+            },
+            {
+              "chapterId": "13",
+              "chapterTitle": "Chapter-XIII",
+              "stage": "The Reward",
+              "stageExplanation": "With the Wicked Witch defeated, Dorothy experiences the reward of freeing the Winkies and reuniting with her companions."
+            },
+            {
+              "chapterId": "14",
+              "chapterTitle": "Chapter-XIV",
+              "stage": "The Road Back",
+              "stageExplanation": "Dorothy's use of the Golden Cap to summon the Winged Monkeys for transport marks the beginning of her journey back to the Emerald City and, ultimately, home."
+            },
+            {
+              "chapterId": "15",
+              "chapterTitle": "Chapter-XV",
+              "stage": "The Resurrection",
+              "stageExplanation": "The revelation of Oz as a humbug forces Dorothy to confront the truth and rely on herself and her companions, leading to personal growth."
+            },
+            {
+              "chapterId": "16",
+              "chapterTitle": "Chapter-XVI",
+              "stage": "The Resurrection",
+              "stageExplanation": "Oz's attempts to fulfill the Scarecrow, Tin Woodman, and Lion's wishes further emphasize the theme of self-discovery and inner strength."
+            },
+            {
+              "chapterId": "17",
+              "chapterTitle": "Chapter-XVII",
+              "stage": "The Road Back",
+              "stageExplanation": "Oz's departure and Dorothy's continued longing for home signify the continuation of her journey back to Kansas."
+            },
+            {
+              "chapterId": "18",
+              "chapterTitle": "Chapter-XVIII",
+              "stage": "The Road Back",
+              "stageExplanation": "The decision to seek Glinda's help reinforces Dorothy's commitment to returning home and the ongoing nature of her journey."
+            },
+            {
+              "chapterId": "19",
+              "chapterTitle": "Chapter-XIX",
+              "stage": "The Road Back",
+              "stageExplanation": "The encounter with the hostile trees represents the final obstacles Dorothy faces on her way to Glinda."
+            },
+            {
+              "chapterId": "20",
+              "chapterTitle": "Chapter-XX",
+              "stage": "The Road Back",
+              "stageExplanation": "Their careful navigation through the Dainty China Country symbolizes Dorothy's growing awareness and empathy, qualities she'll bring back to her world."
+            },
+            {
+              "chapterId": "21",
+              "chapterTitle": "Chapter-XXI",
+              "stage": "The Road Back",
+              "stageExplanation": "The Lion's act of slaying the monstrous spider showcases his newfound courage and marks the completion of their journey through Oz's challenges."
+            },
+            {
+              "chapterId": "22",
+              "chapterTitle": "Chapter-XXII",
+              "stage": "The Road Back",
+              "stageExplanation": "The final use of the Winged Monkeys to overcome the Hammer-Heads emphasizes Dorothy's resourcefulness and progress toward home."
+            },
+            {
+              "chapterId": "23",
+              "chapterTitle": "Chapter-XXIII",
+              "stage": "Return with the Elixir",
+              "stageExplanation": "Glinda's revelation about the Silver Shoes and Dorothy's return to Kansas represent the culmination of her journey and her newfound wisdom."
+            },
+            {
+              "chapterId": "24",
+              "chapterTitle": "Chapter-XXIV",
+              "stage": "Return with the Elixir",
+              "stageExplanation": "Dorothy's reunion with Aunt Em and the comfort she finds in home demonstrate the lasting impact of her journey and the 'elixir' of self-discovery she brings back."
+            }
+          ],
+          "timestamp": 1728426080776
+        }
+      },
       "summaries": {
         "11": {
           "novelId": "11",

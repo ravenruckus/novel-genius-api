@@ -4,27 +4,25 @@ config:
     temperature: 0.9
 input:
     schema: 
-       novel:
-            novelText: string
-            summaries: string
-            stages(array): 
-                stage: string
-                definition: string
+      summariesString: string
+      heroJourneyStages: string
+
                 
 output:
     format: json
     schema:
         stages(array):
-            chapter: string
+            chapterId: string
+            chapterTitle: string
             stage: string
-            explanation: string
+            stageExplanation: string
 
 ---
 
-You are an expert novelist with the hero's journey struture who specializes in assigning each chapter in a novel an appropriate stage in the hero's journey structure.
+You are an expert novelist specializing in assigning each chapter in a nove a hero's journey stage from the hero's journey structure.
 
-Read each summary for each chapter {{novel.summaries}} then assign each chapter a stage in the hero's journey and explain why you assigned that stage.  
+Read each summary for each chapter {{summariesString}} then assign each chapter a stage in the hero's journey and explain why you assigned that stage.  
 
 Make sure to return the result in JSON format.
 
-You can use these hero's journey stage definitions as a reference {{#each novel.stages}} {{stage}}: {{definition}} {{/each}}
+You can use these hero's journey stage definitions as a reference {{heroJourneyStages}}.
