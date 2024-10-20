@@ -1,12 +1,12 @@
 'use server';
 import Bottleneck from 'bottleneck';
-import getNovel from '@/lib/actions/getNovel';
 import { callSummaryFlow } from '@/lib/actions/genkit/summarizeNovel';
 import { Novel, ChapterSummary } from '@/lib/definitions';
 import {
   saveInitialSummary,
   saveSummaries,
 } from '@/lib/actions/database/saveSummaries';
+import { getNovelText } from '@/lib/actions/database/getNovelText';
 
 interface state {
   message: string;
@@ -29,7 +29,7 @@ export default async function getChapterSummaries(
     return { message: 'Error getting novels' };
   }
 
-  const novel: Novel = await getNovel(id, novelName);
+  const novel: Novel = await getNovelText(id, novelName);
 
   if (!novel) {
     return { message: 'Error getting novel' };

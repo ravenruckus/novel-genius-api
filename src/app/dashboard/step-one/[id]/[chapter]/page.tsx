@@ -1,6 +1,6 @@
-import getNovel from '@/lib/actions/getNovel';
 import getNovelName from '@/lib/utils/getNovelName';
 import { Novel, ChapterContent } from '@/lib/definitions';
+import { getNovelText } from '@/lib/actions/database/getNovelText';
 
 export default async function Chapter({
   params,
@@ -13,7 +13,7 @@ export default async function Chapter({
 
   let novel: Novel | undefined;
   if (novelName) {
-    novel = await getNovel(id, novelName);
+    novel = await getNovelText(id, novelName);
   }
 
   let chapterContent: ChapterContent | undefined;
