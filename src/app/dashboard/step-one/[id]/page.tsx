@@ -2,14 +2,14 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import getNovelName from '@/lib/utils/getNovelName';
 import { Novel } from '@/lib/definitions';
-import getNovel from '@/lib/actions/getNovel';
 import StepContentHeader from '@/components/dashboard/steps/StepContentHeader';
+import { getNovelText } from '@/lib/actions/database/getNovelText';
 
 export default async function StepOne({ params }: { params: { id: string } }) {
   const id = params.id;
   const novelName = await getNovelName(id);
   if (!novelName) notFound();
-  const novel: Novel | undefined = await getNovel(id, novelName);
+  const novel: Novel | undefined = await getNovelText(id, novelName);
 
   return (
     <div className="container mx-auto sm:px-6 lg:px-8">
